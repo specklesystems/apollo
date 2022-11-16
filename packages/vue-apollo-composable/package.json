@@ -1,5 +1,5 @@
 {
-  "name": "@vue/apollo-composable",
+  "name": "@speckle/vue-apollo-composable",
   "version": "4.0.0-beta.1",
   "description": "Apollo GraphQL for Vue Composition API",
   "repository": {
@@ -32,7 +32,7 @@
     "dev": "rimraf dist && nodemon --exec 'pnpm run build:code' --watch src --ext js,ts",
     "build": "rimraf dist && pnpm run build:code",
     "build:code": "node esbuild.mjs && tsc -d --emitDeclarationOnly",
-    "prepublishOnly": "pnpm run test && pnpm run build",
+    "prepublishOnly": "pnpm run test && pnpm run build:code",
     "test": "pnpm run test:types",
     "test:types": "tsc -p tests/types/"
   },
