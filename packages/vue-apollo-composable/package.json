@@ -4,7 +4,7 @@
   "description": "Apollo GraphQL for Vue Composition API",
   "repository": {
     "type": "git",
-    "url": "https://github.com/vuejs/vue-apollo.git",
+    "url": "https://github.com/specklesystems/apollo.git",
     "directory": "packages/vue-apollo-composable"
   },
   "keywords": [
